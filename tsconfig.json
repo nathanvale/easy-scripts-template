@@ -1,0 +1,7 @@
+{
+  "extends": "./node_modules/@origin-digital/origin-scripts/dist/config/tsconfig.json",
+  "include": ["src", "types"],
+  "compilerOptions": {
+    "declarationDir": "dist"
+  }
+}
