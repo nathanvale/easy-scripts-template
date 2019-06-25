@@ -1525,6 +1525,11 @@
   resolved "https://artifactory.origindigital-dac.com.au/artifactory/api/npm/npm-all/@types/stack-utils/-/stack-utils-1.0.1.tgz#0a851d3bd96498fa25c33ab7278ed3bd65f06c3e"
   integrity sha1-CoUdO9lkmPolwzq3J47TvWXwbD4=
 
+"@types/string@^0.0.29":
+  version "0.0.29"
+  resolved "https://artifactory.origindigital-dac.com.au/artifactory/api/npm/npm-all/@types/string/-/string-0.0.29.tgz#9b6de0ec6884bdbe9520a0e4022886b57759f5fa"
+  integrity sha1-m23g7GiEvb6VIKDkAiiGtXdZ9fo=
+
 "@types/yargs@^12.0.2", "@types/yargs@^12.0.9":
   version "12.0.12"
   resolved "https://artifactory.origindigital-dac.com.au/artifactory/api/npm/npm-all/@types/yargs/-/yargs-12.0.12.tgz#45dd1d0638e8c8f153e87d296907659296873916"
@@ -11038,6 +11043,11 @@ string-width@^3.0.0, string-width@^3.1.0:
     emoji-regex "^7.0.1"
     is-fullwidth-code-point "^2.0.0"
     strip-ansi "^5.1.0"
+
+string@^3.3.3:
+  version "3.3.3"
+  resolved "https://artifactory.origindigital-dac.com.au/artifactory/api/npm/npm-all/string/-/string-3.3.3.tgz#5ea211cd92d228e184294990a6cc97b366a77cb0"
+  integrity sha1-XqIRzZLSKOGEKUmQpsyXs2anfLA=
 
 string_decoder@^1.0.0, string_decoder@^1.1.1:
   version "1.2.0"

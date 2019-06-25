@@ -25,7 +25,7 @@
   "eslintConfig": {
     "extends": "./node_modules/@origin-digital/origin-scripts/dist/config/eslintrc.js",
     "rules": {
-     "@typescript-eslint/explicit-function-return-type":"off"
+      "@typescript-eslint/explicit-function-return-type": "off"
     }
   },
   "eslintIgnore": [],
@@ -36,7 +36,9 @@
     "preset": "./node_modules/@origin-digital/origin-scripts/dist/config/jest.config.js"
   },
   "dependencies": {
-    "@babel/runtime-corejs2": "^7.4.5"
+    "@babel/runtime-corejs2": "^7.4.5",
+    "@types/string": "^0.0.29",
+    "string": "^3.3.3"
   },
   "devDependencies": {
     "@origin-digital/origin-scripts": "^1.1.1",
