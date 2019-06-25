@@ -1160,10 +1160,10 @@
     universal-user-agent "^2.0.0"
     url-template "^2.0.8"
 
-"@origin-digital/eslint-config@^1.0.0":
-  version "1.0.0"
-  resolved "https://artifactory.origindigital-dac.com.au/artifactory/api/npm/npm-all/@origin-digital/eslint-config/-/@origin-digital/eslint-config-1.0.0.tgz#c3b71fe32e2af80ccac2ebcae40127f8a5a55319"
-  integrity sha1-w7cf4y4q+AzKwuvK5AEn+KWlUxk=
+"@origin-digital/eslint-config@^1.0.1":
+  version "1.0.1"
+  resolved "https://artifactory.origindigital-dac.com.au/artifactory/api/npm/npm-all/@origin-digital/eslint-config/-/@origin-digital/eslint-config-1.0.1.tgz#31c44f7f07126abc8c5632adfc12ac940d0154b4"
+  integrity sha1-McRPfwcSaryMVjKt/BKslA0BVLQ=
   dependencies:
     "@typescript-eslint/eslint-plugin" "^1.4.2"
     "@typescript-eslint/parser" "^1.4.2"
@@ -1180,10 +1180,10 @@
     semver "^6.1.1"
     webpack "^4.33.0"
 
-"@origin-digital/origin-scripts@^1.1.1":
-  version "1.1.1"
-  resolved "https://artifactory.origindigital-dac.com.au/artifactory/api/npm/npm-all/@origin-digital/origin-scripts/-/@origin-digital/origin-scripts-1.1.1.tgz#3ba786c7baa6492574d669e3c4464d6fc4fe63b5"
-  integrity sha1-O6eGx7qmSSV01mnjxEZNb8T+Y7U=
+"@origin-digital/origin-scripts@^1.1.2":
+  version "1.1.2"
+  resolved "https://artifactory.origindigital-dac.com.au/artifactory/api/npm/npm-all/@origin-digital/origin-scripts/-/@origin-digital/origin-scripts-1.1.2.tgz#0173cb435ef121bd3ec1ecf19b7ce8a9db41a9f8"
+  integrity sha1-AXPLQ17xIb0+wezxm3zoqdtBqfg=
   dependencies:
     "@babel/cli" "^7.2.3"
     "@babel/core" "^7.3.4"
@@ -1202,7 +1202,7 @@
     "@commitlint/cli" "^7.3.2"
     "@commitlint/config-conventional" "^7.3.1"
     "@commitlint/prompt-cli" "^7.3.1"
-    "@origin-digital/eslint-config" "^1.0.0"
+    "@origin-digital/eslint-config" "^1.0.1"
     "@types/enzyme" "^3.1.10"
     "@types/jest" "^24.0.11"
     "@types/react" "^16.8.8"

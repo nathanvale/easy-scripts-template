@@ -5,12 +5,13 @@
   "license": "ISC",
   "author": "",
   "main": "index.js",
+  "typings": "dist/index.d.ts",
   "scripts": {
     "build": "origin-scripts build-library",
     "format": "origin-scripts format",
+    "lint": "origin-scripts lint",
     "test": "origin-scripts test"
   },
-  "typings": "dist/index.d.ts",
   "husky": {
     "hooks": {
       "commit-msg": "origin-scripts commitlint -e $HUSKY_GIT_PARAMS",
@@ -21,15 +22,12 @@
   "babel": {
     "presets": [
       "./node_modules/@origin-digital/origin-scripts/dist/config/babelrc.js"
-    ]
-  },
+    ]  },
   "eslintConfig": {
     "extends": "./node_modules/@origin-digital/origin-scripts/dist/config/eslintrc.js",
-    "rules": {
-      "@typescript-eslint/explicit-function-return-type": "off"
-    }
+    "rules": {}
   },
-  "eslintIgnore": [],
+  "eslintIgnore": ["dist"],
   "jest": {
     "coverageThreshold": {
       "global": {}
@@ -42,7 +40,7 @@
     "string": "^3.3.3"
   },
   "devDependencies": {
-    "@origin-digital/origin-scripts": "^1.1.1",
+    "@origin-digital/origin-scripts": "^1.1.2",
     "typescript": "^3.5.2"
   }
 }
