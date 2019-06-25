@@ -10,6 +10,7 @@
     "format": "origin-scripts format",
     "test": "origin-scripts test"
   },
+  "typings": "dist/index.d.ts",
   "husky": {
     "hooks": {
       "commit-msg": "origin-scripts commitlint -e $HUSKY_GIT_PARAMS",
