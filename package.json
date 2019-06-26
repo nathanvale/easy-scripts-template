@@ -10,7 +10,8 @@
     "build": "origin-scripts build-library",
     "format": "origin-scripts format",
     "lint": "origin-scripts lint",
-    "test": "origin-scripts test"
+    "test": "origin-scripts test",
+    "validate":"origin-scripts validate"
   },
   "husky": {
     "hooks": {
