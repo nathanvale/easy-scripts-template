@@ -1,0 +1,47 @@
+{
+  "name": "origin-scripts-example",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "",
+  "main": "index.js",
+  "typings": "dist/index.d.ts",
+  "scripts": {
+    "build": "origin-scripts build-library",
+    "format": "origin-scripts format",
+    "lint": "origin-scripts lint",
+    "test": "origin-scripts test",
+    "validate":"origin-scripts validate"
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "origin-scripts commitlint -e $HUSKY_GIT_PARAMS",
+      "pre-commit": "origin-scripts pre-commit",
+      "post-rewrite": "origin-scripts pre-commit"
+    }
+  },
+  "babel": {
+    "presets": [
+      "./node_modules/@origin-digital/origin-scripts/dist/config/babelrc.js"
+    ]  },
+  "eslintConfig": {
+    "extends": "./node_modules/@origin-digital/origin-scripts/dist/config/eslintrc.js",
+    "rules": {}
+  },
+  "eslintIgnore": ["dist"],
+  "jest": {
+    "coverageThreshold": {
+      "global": {}
+    },
+    "preset": "./node_modules/@origin-digital/origin-scripts/dist/config/jest.config.js"
+  },
+  "dependencies": {
+    "@babel/runtime-corejs2": "^7.4.5",
+    "@types/string": "^0.0.29",
+    "string": "^3.3.3"
+  },
+  "devDependencies": {
+    "@origin-digital/origin-scripts": "^1.1.2",
+    "typescript": "^3.5.2"
+  }
+}
