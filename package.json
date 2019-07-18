@@ -2,7 +2,7 @@
   "name": "origin-scripts-example",
   "version": "1.0.0",
   "description": "",
-  "license": "ISC",
+  "license": "MIT",
   "author": "",
   "main": "index.js",
   "typings": "dist/index.d.ts",
@@ -45,7 +45,7 @@
     "string": "^3.3.3"
   },
   "devDependencies": {
-    "@origin-digital/origin-scripts": "*",
+    "@origin-digital/origin-scripts": "^1.2.0",
     "typescript": "^3.5.2"
   },
   "engines": {
