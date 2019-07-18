@@ -9,9 +9,10 @@
   "scripts": {
     "build": "origin-scripts build-library",
     "format": "origin-scripts format",
+    "postinstall": "origin-scripts postinstall",
     "lint": "origin-scripts lint",
     "test": "origin-scripts test",
-    "validate":"origin-scripts validate"
+    "validate": "origin-scripts validate"
   },
   "husky": {
     "hooks": {
@@ -23,12 +24,15 @@
   "babel": {
     "presets": [
       "./node_modules/@origin-digital/origin-scripts/dist/config/babelrc.js"
-    ]  },
+    ]
+  },
   "eslintConfig": {
     "extends": "./node_modules/@origin-digital/origin-scripts/dist/config/eslintrc.js",
     "rules": {}
   },
-  "eslintIgnore": ["dist"],
+  "eslintIgnore": [
+    "dist"
+  ],
   "jest": {
     "coverageThreshold": {
       "global": {}
@@ -41,7 +45,11 @@
     "string": "^3.3.3"
   },
   "devDependencies": {
-    "@origin-digital/origin-scripts": "^1.1.2",
+    "@origin-digital/origin-scripts": "*",
     "typescript": "^3.5.2"
-  }
+  },
+  "engines": {
+    "node": ">=8.9.0"
+  },
+  "engineStrict": true
 }
