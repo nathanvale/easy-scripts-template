@@ -7,8 +7,6 @@ export function sayMessage(): string {
 }
 
 export function shoutMessage(): string {
-  const t = {a: 1, b: 2}
-  const x = {...t}
   return shout({text})
 }
 
