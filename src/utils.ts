@@ -1,3 +1,6 @@
-export function shout(input: string) {
-  return `${input.toUpperCase()}!`
+interface IShoutProps {
+  text: string
+}
+export function shout({text}: IShoutProps): string {
+  return `${text.toUpperCase()}!`
 }
