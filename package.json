@@ -20,7 +20,7 @@
     "string": "^3.3.3"
   },
   "devDependencies": {
-    "easy-scripts": "^2.8.1",
+    "easy-scripts": "^2.8.2",
     "typescript": "^3.5.2"
   },
   "engines": {
